@@ -34,7 +34,7 @@ class Utils():
     export_to_gltf = True
     export_to_gltf_copyright = ""
     
-    # Main function to make action on all selected objects
+    # Main function to execute action on all selected objects
     def __init__(self):
         
         # Get all selected objects
@@ -175,7 +175,7 @@ class Utils():
         bpy.ops.object.origin_set(type='ORIGIN_CURSOR', center='MEDIAN')
 
 
-    # Function to place origin in the center floor of object
+    # Function to get center floor world cooridantes of object
     @staticmethod
     def compute_floor_origin(object):
         
