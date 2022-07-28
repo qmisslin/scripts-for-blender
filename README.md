@@ -11,7 +11,7 @@ Here are the 3 actions:
 - To export an object in GLTF format.
 
 To enable or disable these actions, you can change the values to "True" or "False" in the file header as follows. 
-The "export_to_gltf_copyright" field defines the copyright that is assigned to each file during multiple export.
+The "export_to_gltf_copyright" field defines the copyright that is assigned to each file during multiple export (you can put your name in quotes here, for example "qmisslin").
 ```python
 
 import bpy
