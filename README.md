@@ -1,6 +1,8 @@
 # scripts-for-blender
 Repository to list the different python scripts I use in Blender to automate certain tasks.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## utils_on_selection.py
 
 In this file, you will find the Utils class which allows 3 actions on a whole selection of objects (each object is treated one by one). These actions can be activated or not in the script.
